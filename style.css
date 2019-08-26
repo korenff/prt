@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'NeueMachina';
+    src: url('fonts/NeueMachina-Light.eot');
+    src: url('fonts/NeueMachina-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/NeueMachina-Light.woff2') format('woff2'),
+        url('fonts/NeueMachina-Light.woff') format('woff'),
+        url('fonts/NeueMachina-Light.ttf') format('truetype'),
+        url('fonts/NeueMachina-Light.svg#NeueMachina-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+:root {
+  --mainColor: #000000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'NeueMachina', monospace;
+  font-size: 100px;
+  line-height: 90px;
+  letter-spacing: -.035em;
+  /* text-transform: lowercase; */
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #E8E8E8;
+}
+
+.vissually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+a {
+  text-decoration: none;
+  color: #E8E8E8;
+  -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #000000;
+   transition: color .3s
+}
+
+a:hover {
+  color: #A8A8A8;
+}
+
+.main-header a {
+  text-decoration: none;
+}
+
+
+
+.about {
+width: 100%;
+margin-top: 6px;
+}
+
+.projects {
+  margin-top: 300px;
+  /* text-transform: lowercase; */
+}
+
+img {
+  width: 291px;
+  height: 340px;
+}
+.projectc span {
+  text-transform: lowercase;
+  /* font-style: italic; */
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .projects {
+    margin-top: 180px;
+    text-transform: lowercase;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'NeueMachina', monospace;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -.015em;
+    /* text-transform: uppercase; */
+      text-transform: lowercase;
+    color: #000000;
+    background-color: #E8E8E8;
+  }
+
+}
