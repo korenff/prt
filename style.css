@@ -124,7 +124,7 @@ img {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .about {
   width: auto;
     /* width: 320px; */
