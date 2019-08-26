@@ -60,7 +60,8 @@ a:hover {
 
 
 .about {
-width: 100%;
+  width: 100%;
+/* width: 1440px; */
 margin-top: 6px;
 }
 
@@ -80,24 +81,58 @@ img {
 
 
 
-@media screen and (max-width: 500px) {
-  .projects {
-    margin-top: 180px;
-    text-transform: lowercase;
+@media screen and (max-width: 1280px) {
+  .about {
+    width: 100%;
+  /* width: 1280px; */
   }
 
   body {
-    margin: 0;
-    padding: 0;
-
     font-family: 'NeueMachina', monospace;
-    font-size: 60px;
-    line-height: 60px;
-    letter-spacing: -.015em;
-    /* text-transform: uppercase; */
-      text-transform: lowercase;
-    color: #000000;
-    background-color: #E8E8E8;
+    font-size: 90px;
+    line-height: 80px;
+    letter-spacing: -.035em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about {
+    width: 100%;
+  /* width: 1024px; */
   }
 
+  body {
+    font-family: 'NeueMachina', monospace;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -.035em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    width: 100%;
+  /* width: 768px; */
+  }
+
+  body {
+    font-family: 'NeueMachina', monospace;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: -.035em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about {
+  width: auto;
+    /* width: 320px; */
+  }
+
+  body {
+    font-family: 'NeueMachina', monospace;
+    font-size: 48px;
+    line-height: 40px;
+    letter-spacing: -.035em;
+  }
 }
