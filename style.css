@@ -59,6 +59,17 @@ a:hover {
 }
 
 
+img {
+  width: 291px;
+  height: 340px;
+}
+
+.projectc span {
+  text-transform: lowercase;
+  /* font-style: italic; */
+}
+
+
 
 .about {
   width: 100%;
@@ -70,14 +81,11 @@ margin-top: 6px;
   /* margin-top: 300px; */
   position: absolute;
 	left: 0;
-	bottom: 0;
+	bottom: -12px;
 }
 }
 
-img {
-  width: 291px;
-  height: 340px;
-}
+
 .projectc span {
   text-transform: lowercase;
   /* font-style: italic; */
