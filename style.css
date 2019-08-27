@@ -67,8 +67,11 @@ margin-top: 6px;
 }
 
 .projects {
-  margin-top: 300px;
-  /* text-transform: lowercase; */
+  /* margin-top: 300px; */
+  position: absolute;
+	left: 0;
+	bottom: 0;
+}
 }
 
 img {
