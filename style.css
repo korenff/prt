@@ -10,7 +10,6 @@
     font-style: normal;
 }
 
-
 :root {
   --mainColor: #000000;
 }
@@ -58,37 +57,39 @@ a:hover {
   text-decoration: none;
 }
 
-
 img {
   width: 291px;
   height: 340px;
 }
 
-.projectc span {
+.tramp  span {
   text-transform: lowercase;
+  text-align: center;
   /* font-style: italic; */
 }
+
+.mal
+  {
+    text-transform: lowercase;
+    /* font-style: italic; */
+  }
+
 
 
 
 .about {
   width: 100%;
-/* width: 1440px; */
-margin-top: 6px;
+  margin-top: 6px;
 }
 
 .projects {
-  /* margin-top: 300px; */
   position: absolute;
 	left: 0;
 	bottom: -12px;
 }
-}
-
 
 .projectc span {
   text-transform: lowercase;
-  /* font-style: italic; */
 }
 
 
@@ -102,11 +103,16 @@ margin-top: 6px;
     font-family: 'NeueMachina', monospace;
     font-size: 44px;
     line-height: 40px;
+    letter-spacing: -.035em;
 
   }
 
   a {
     -webkit-text-stroke-width: 0.5px;
+  }
+
+  .projects {
+  	bottom: -6px;
   }
 }
 
@@ -119,10 +125,15 @@ margin-top: 6px;
     font-family: 'NeueMachina', monospace;
     font-size: 52px;
     line-height: 48px;
+    letter-spacing: -.030em;
   }
 
   a {
     -webkit-text-stroke-width: 0.5px;
+  }
+
+  .projects {
+    bottom: -6px;
   }
 }
 
@@ -158,7 +169,7 @@ margin-top: 6px;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .about {
     width: 100%;
   }
@@ -174,7 +185,7 @@ margin-top: 6px;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
   .about {
     width: 100%;
   }
